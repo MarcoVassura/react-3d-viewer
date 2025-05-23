@@ -5,7 +5,7 @@
   "description": "A 3D model viewer component based on react.js",
   "main": "dist/scripts/react-3d-viewer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test/tick.test.mjs",
     "site": "webpack --mode production",
     "dev": "webpack --mode production",
     "pro": "webpack --mode production"
